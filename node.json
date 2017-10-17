@@ -1,0 +1,12 @@
+[
+	{
+		"name" : "node",
+		"cwd"  : "./",
+		"script" : "node",
+		"args" : "index.js",
+		"log_file" : "node_log.log",
+		"max_restarts" : 10,
+		"exec_interpreter" : "none",
+		"exec_mode" : "fork_mode"
+	}
+]

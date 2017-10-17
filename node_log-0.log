@@ -1,0 +1,86 @@
+connected to ehterum node at http://localhost:8545
+coinbase:0x6fe823d225d91daf5d6b45d72dcab081fe85f36f
+balance:9.04625697166532776746648320380374280103671755200306910563317429195821325178e+56 ETH
+[ '0x6fe823d225d91daf5d6b45d72dcab081fe85f36f',
+  '0xf24f4d33b2a82b9750b9fa705ac1de91fffe7a51',
+  '0xdc8da84975d28ea6232fdf605fdca81206d88ba6' ]
+0x6fe823d225d91daf5d6b45d72dcab081fe85f36fis unlocked
+compiling contract...
+done
+6060604052341561000f57600080fd5b620186a06000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506102c6806100646000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806390b98a1114610048578063bbd39ac0146100a257600080fd5b341561005357600080fd5b610088600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506100ef565b604051808215151515815260200191505060405180910390f35b34156100ad57600080fd5b6100d9600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610282565b6040518082815260200191505060405180910390f35b6000816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015610140576000905061027c565b816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540392505081905550816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055507f16cdf1707799c6655baac6e210f52b94b7cec08adcaf9ede7dfe8649da926146338484604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828152602001935050505060405180910390a1600190505b92915050565b600060205280600052604060002060009150905054815600a165627a7a72305820e745830369d968dce90aad08f255d4c05938ccd7a3d5afdf4631fc72b335b27b0029
+[
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "receiver",
+        "type": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "sendCoin",
+    "outputs": [
+      {
+        "name": "sufficient",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "coinBalanceOf",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "sender",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "receiver",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "CoinTransfer",
+    "type": "event"
+  }
+]
+gasEstimate = 266337
+deploying contract...
+myContract.transactionHash = 0xd45f9f3e89f33729dbe7ace2ee40e4bef75da32021cd5bdf414148d5e7d73655
+myContract.address = 0x55f5d482295352abeca2a11e44a7cd0c2e7e2acb
